@@ -1,0 +1,26 @@
+{
+    "name": "danielveza/sector-enable-addons",
+    "description": "Enables all Add ons for the Sector Drupal distribution",
+    "authors": [
+        {
+            "name": "Daniel Veza",
+            "email": "daniel@sparksinteractive.co.nz"
+        }
+    ],
+    "repositories": {
+        "packagist.drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "require": {
+        "drupal/sector_blog": "1.x-dev",
+        "drupal/sector_events": "2.x-dev",
+        "drupal/sector_content_audit": "1.x-dev",
+        "drupal/sector_portfolio": "1.x-dev",
+        "drupal/sector_contact": "1.x-dev",
+        "drupal/sector_index": "1.x-dev",
+        "drupal/sector_media_gallery": "2.x-dev"
+    },
+    "minimum-stability": "dev"
+}
